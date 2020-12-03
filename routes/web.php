@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('file-upload', function () {
+    return view('imgupload');
+});
+
+// Route::get('file-upload', function () {
+//     return view('fileupload');
+// });
