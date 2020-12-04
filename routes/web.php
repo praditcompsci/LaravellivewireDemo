@@ -36,3 +36,11 @@ Route::get('contacts', function () {
 Route::get('load-more-user', function () {
     return view('loadmoreuser');
 });
+
+Route::get('wizard', function () {
+    return view('wizard');
+});
+
+// Route::get('products', function () {
+//     return view('products');
+// });
