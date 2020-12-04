@@ -28,3 +28,7 @@ Route::get('file-upload', function () {
 Route::get('user-datatables', function () {
     return view('userdata');
 });
+
+Route::get('contacts', function () {
+    return view('contacts');
+});
