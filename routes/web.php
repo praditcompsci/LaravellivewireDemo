@@ -32,3 +32,7 @@ Route::get('user-datatables', function () {
 Route::get('contacts', function () {
     return view('contacts');
 });
+
+Route::get('load-more-user', function () {
+    return view('loadmoreuser');
+});
