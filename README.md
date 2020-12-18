@@ -65,5 +65,5 @@ External link [Laravel Livewire](https://laravel-livewire.com). [It Solution Stu
 
 ## Fix debug
 1. Jestream: php artisan migrate:refresh
-2. Jestream: php artisan storage:link and file config evn APP_URL=http://localhost:8000
+2. Jestream: php artisan storage:link and file config env APP_URL=http://localhost:8000
 
