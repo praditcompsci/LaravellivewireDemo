@@ -63,3 +63,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Credit Open Source
 External link [Laravel Livewire](https://laravel-livewire.com). [It Solution Stuff](https://www.itsolutionstuff.com/tag/livewire.html).
 
+## Fix debug
+1. Jestream: php artisan migrate:refresh
+2. Jestream: php artisan storage:link and file config evn APP_URL=http://localhost:8000
+
